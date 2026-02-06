@@ -12,10 +12,9 @@ This curriculum focuses on "how to build" rather than just "how it works."
 - **Concepts**: Arrays/Vectors, `std::string`, File I/O (`fstream`), Pointers, and Structs.
 - **Goal**: Understand data persistence and basic memory organization.
 
-## Phase 3: OOP & Memory - Retro Arcade Game
-**Project**: **Snake or Tetris** (ASCII/Terminal-based)
-- **Concepts**: Classes, Inheritance, Polymorphism, Encapsulation, Manual Memory (`new`/`delete`).
-- **Goal**: Transition from procedural to Object-Oriented thinking.
+## Phase 3: OOP & Memory - Retro Arcade Game (SKIPPED)
+**Project**: **Snake or Tetris**
+- *Note: Moved directly to Phase 4 per user request.*
 
 ## Phase 4: Modern C++ - Multithreaded Task Runner
 **Project**: **Concurrent File Downloader/Processor**

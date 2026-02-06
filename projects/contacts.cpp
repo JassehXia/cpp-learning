@@ -60,14 +60,12 @@ int main() {
       std::cout << "Contact added!" << std::endl;
     } else if (choice == 2) {
       displayContacts(contacts);
+    } else if (choice == 3) {
+      saveToFile(contacts);
     } else {
       std::cout << "Invalid choice. Please try again." << std::endl;
     }
   } while (choice != 3);
-
-  // FEEDBACK: Calling this here shows the list right before the program ends.
-  // Usually, you'd want a "3. View Contacts" option in the menu loop!
-  displayContacts(contacts);
 
   return 0;
 }
