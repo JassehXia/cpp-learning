@@ -16,12 +16,15 @@ This curriculum focuses on "how to build" rather than just "how it works."
 **Project**: **Snake or Tetris**
 - *Note: Moved directly to Phase 4 per user request.*
 
-## Phase 4: Modern C++ - Multithreaded Task Runner
-**Project**: **Concurrent File Downloader/Processor**
-- **Concepts**: STL (`map`, `unordered_map`, `algorithm`), Smart Pointers (`unique_ptr`, `shared_ptr`), Lambda functions, Threads (`std::thread`).
-- **Goal**: Write safe, efficient modern C++ code.
+## Phase 4: Modern C++ - Multithreaded Task Runner (DONE)
+- **Goal**: Mastered threads, mutexes, and smart pointers.
 
 ## Phase 5: Professional Engineering - Capstone
-**Project**: **A Custom Library or Application** (e.g., a simple HTTP server or Math Library)
-- **Concepts**: CMake, Unit Testing (GTest/Catch2), Version Control (Git), Documentation (Doxygen).
-- **Goal**: Master the professional C++ lifecycle.
+**Project**: **Multithreaded HTTP Server**
+- **Concepts**: Sockets/Networking (Winsock), String Parsing, Buffer Management, CMake, Professional Project Structure.
+- **Goal**: Combine everything to build a real-world infrastructure component.
+
+## Phase 6: Backend Engineering - Capstone
+**Project**: **Mini-Redis (In-Memory Key-Value Store)**
+- **Concepts**: TCP Sockets (for commands), Thread-safe Data Structures (`std::unordered_map` + Mutex), Concurrency Patterns, Memory Management (LRU Eviction), and Protocol Design.
+- **Goal**: Build a high-performance infrastructure component that other applications could use to store data.
